@@ -1,5 +1,5 @@
 # Site Data
-title: 
+title: Notes on the Summa Theoludica
 tagline: 
 name: 
 author_bio: >
@@ -7,8 +7,8 @@ footer_description: >
 notes_url: 
 profile_pic: 
 favicon: /assets/img/favicon.png
-baseurl: "" # the subpath of your site, e.g. /blog
-url: ""     # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "manuscript" # the subpath of your site, e.g. /blog
+url: "https://mwmxyz.github.io/"     # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
 encoding: utf-8
 
