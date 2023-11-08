@@ -4,21 +4,21 @@ tagline:
 name: 
 author_bio: >
 footer_description: >
-notes_url: 
+notes_url: https://mwmxyz.github.io/manuscript
 profile_pic: 
-favicon: /assets/img/favicon.png
-baseurl: "manuscript" # the subpath of your site, e.g. /blog
-url: "https://mwmxyz.github.io/"     # the base hostname & protocol for your site, e.g. https://example.com
+favicon: https://mwmxyz.github.io/manuscript/assets/img/favicon.png
+baseurl: "/manuscript" # the subpath of your site, e.g. /blog
+url: "https://mwmxyz.github.io"     # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
 encoding: utf-8
 
 # Links and Social Media
 donate_link: 
-repository: 
+repository: https://mwmxyz.github.io/manuscript
 github: 
 twitter: 
 portfolio: 
-email: 
+email: michael.merriam@ucf.edu
 
 # Build Settings
 theme: null
@@ -46,13 +46,13 @@ JEKYLL_ENV: "production"
 collections:
   notes:
     output: true
-    permalink: /notes/:title
+    permalink: https://mwmxyz.github.io/manuscript/notes/:title
   journals:
     output: true
-    permalink: /journals/:title
+    permalink: https://mwmxyz.github.io/manuscript/journals/:title
   pages:
     output: true
-    permalink: /page/:name
+    permalink: https://mwmxyz.github.io/manuscript/page/:name
 
 disqus:
   shortname: 
@@ -63,24 +63,24 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /posts/:title
+      permalink: https://mwmxyz.github.io/manuscript/posts/:title
       content-type: post
       category: "Post"
       toc: true
   - scope:
-      path: ""
+      path: "https://mwmxyz.github.io/manuscript"
       type: notes
     values:
       layout: post
       content-type: notes
   - scope:
-      path: ""
+      path: "https://mwmxyz.github.io/manuscript"
       type: journals
     values:
       layout: post
       content-type: journals
   - scope:
-      path: ""
+      path: "https://mwmxyz.github.io/manuscript"
       type: pages
     values:
       layout: page
@@ -90,11 +90,11 @@ jekyll-archives:
   enabled: []
   layout: default
   permalinks:
-    year: "/:year/"
-    month: "/:year/:month/"
-    day: "/:year/:month/:day/"
-    tag: "/tag/:name/"
-    category: "/category/:name/"
+    year: "https://mwmxyz.github.io/manuscript/:year/"
+    month: "https://mwmxyz.github.io/manuscript/:year/:month/"
+    day: "https://mwmxyz.github.io/manuscript/:year/:month/:day/"
+    tag: "https://mwmxyz.github.io/manuscript/tag/:name/"
+    category: "https://mwmxyz.github.io/manuscript/category/:name/"
 
 toc:
   min_level: 1
