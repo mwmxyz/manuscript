@@ -1,7 +1,7 @@
 # Site Data
-title: "Enjoyment Work"
+title: "MWM-2"
 tagline: " — a Digital Garden 🌱"
-name: "Brennan Kenneth Brown"
+name: "MWM"
 author_bio:
   "Michael W. Merriam (MWM) is several decades old and designs games with a view to sharpening perception of invisible systems.
   He was raised in Vermont, and lived in California for years before moving to New York City where he was active in the arts, 
@@ -15,7 +15,7 @@ footer_description:
   has or works in a dirt garden, we all share a familiarity with the idea of what a garden is.'
 notes_url: "https://enjoyment-work.netlify.app"
 profile_pic: "https://brennanbrown.ca/img/avatar.jpg"
-favicon: /assets/img/favicon.png
+favicon: /manuscript/assets/img/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://enjoyment-work.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
@@ -55,13 +55,13 @@ JEKYLL_ENV: "production"
 collections:
   notes:
     output: true
-    permalink: /notes/:title
+    permalink: /manuscript/notes/:title
   journals:
     output: true
-    permalink: /journals/:title
+    permalink: /manuscript/journals/:title
   pages:
     output: true
-    permalink: /page/:name
+    permalink: /manuscript/page/:name
 
 disqus:
   shortname: journalbar
@@ -72,7 +72,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /posts/:title
+      permalink: /manuscript/posts/:title
       content-type: post
       category: "Post"
       toc: true
@@ -99,11 +99,11 @@ jekyll-archives:
   enabled: []
   layout: default
   permalinks:
-    year: "/:year/"
-    month: "/:year/:month/"
-    day: "/:year/:month/:day/"
-    tag: "/tag/:name/"
-    category: "/category/:name/"
+    year: "/manuscript/:year/"
+    month: "/manuscript/:year/:month/"
+    day: "/manuscript/:year/:month/:day/"
+    tag: "/manuscript/tag/:name/"
+    category: "/manuscript/category/:name/"
 
 toc:
   min_level: 1
